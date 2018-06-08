@@ -1,0 +1,55 @@
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(246, 250, 185);
+  /* border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2); */
+}
+.page-header {
+  border: 0;
+}
+
+[class*="container"] {
+
+  padding-top: 20px;
+}
+
+.container {
+  background: #DDD;
+}
+
+.content-container {
+  background: #CCC;
+}
+
+.page-container {
+  background:#ddd;
+}
+
+.para-row {
+  background: rgb(133, 212, 208);
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+.component-row {
+  background: orange;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+/* .col-md-6 {
+  background: red;
+} */
+
+.red {
+  background: red !important;
+}
