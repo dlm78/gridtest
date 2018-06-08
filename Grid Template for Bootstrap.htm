@@ -35,7 +35,7 @@
 </head>
 
 <body>
-  <div class="container-fluid page-container">
+  <div class="container-fluid page-container full-width">
 
     <!-- Band -->
     <div class="row para-row">
@@ -55,7 +55,12 @@
       <div class="container">
         <!-- Component -->
         <div class="row component-row">
-          <div class="col-md-12"><p>This is a component with <code>row</code> and <code>grid class</code></p></div>
+          <div class="col-md-12">
+            <p>This is a component with
+              <code>row</code> and
+              <code>grid class</code>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -63,7 +68,7 @@
   </div>
 
 
-  <div class="container page-container">
+  <div class="container page-container not-full-width">
 
     <div class="row">
       <div class="col-md-12">
@@ -86,48 +91,64 @@
     </div>
 
     <div class="row">
-      <div class="col-md-9">Left
+      <div class="col-md-9 l">
+        <p>Left</p>
         <!-- Band -->
-    <div class="row para-row">
-        <div class="container">
-        <!-- Component -->
-        <div class="row component-row">
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
-        </div>
+        <div class="row para-row">
+          <div class="container">
+            <!-- Component -->
+            <div class="row component-row">
+              <div class="col-md-6">
+                <p>.col-md-6</p>
+              </div>
+              <div class="col-md-6">
+                <p>.col-md-6</p>
+              </div>
+            </div>
 
-        <div class="row component-row">
-          <div class="col-md-6">
-            <h2>Heading 2</h2>
-            <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
-            <img src="http://lorempixel.com/400/400">
-          </div>
-          <div class="col-md-6">Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</div>
-        </div>
+            <div class="row component-row">
+              <div class="col-md-6">
+                <h2>Heading 2</h2>
+                <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
+                <img src="http://lorempixel.com/400/100">
+              </div>
+              <div class="col-md-6">
+                <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
+              </div>
+            </div>
 
-        <!-- Component -->
-        <div class="row component-row">
-          <div class="col-md-6 red">
-            <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
-          </div>
-        </div>
-
-        <!-- Component -->
-        <div class="row component-row">
-          <div class="col-md-6">
+            <!-- Component -->
             <div class="row component-row">
               <div class="col-md-6 red">
                 <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
               </div>
             </div>
-          </div>
-        </div>
 
+            <div class="row para-row">
+                <div class="container">
+                    <div class="row component-row">
+                        <div class="col-md-12"><p>This is a component with <code>row</code> and <code>grid class</code></p></div>
+                    </div>
+                </div>
+            </div>
 
-        <!-- Component -->
-        <div class="row component-row">
-          <div class="col-md-6">
+            <div class="row para-row">
+                <div class="container">
+                    <div class="row component-row">
+                        <div class="col-md-12">
+                            <div class="row para-row">
+                                <div class="container">
+                                    <div class="row component-row">
+                                        <div class="col-md-12"><p>This is a component with <code>row</code> and <code>grid class</code></p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Component -->
             <div class="row component-row">
               <div class="col-md-6">
                 <div class="row component-row">
@@ -137,17 +158,18 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
-
       </div>
-      <div class="col-md-3">Right</div>
+
+      <div class="col-md-3 r">
+        <p>Right</p>
+      </div>
     </div>
 
-  </div>
-
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="./Grid Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./Grid Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
 
 
 </body>

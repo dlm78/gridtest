@@ -1,29 +1,26 @@
 h4 {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
+
 [class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: rgb(246, 250, 185);
-  /* border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2); */
 }
 .page-header {
   border: 0;
 }
 
 [class*="container"] {
-
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
+img {
+  width: 100%;
+}
 .container {
   background: #DDD;
 }
@@ -52,4 +49,17 @@ h4 {
 
 .red {
   background: red !important;
+}
+
+.l {
+  background: teal;
+}
+.r {
+  background: rgb(0, 129, 97);
+}
+
+/* This is what allows the samw paragraph twig to work in all scenarios */
+.not-full-width .container {
+  width: auto;
+  /* This overides fixed widths */
 }
