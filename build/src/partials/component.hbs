@@ -1,1 +1,21 @@
-<p>Handlebar component</p>
+{{!-- This is the wrapper for single components --}} {{!-- It can be used inside any paragraph but cannot be used alone on
+full-width (needs paragraph wrapper). --}}
+<div class="row component-row">
+    <div class="col-xs-12">
+        {{> text }}
+    </div>
+</div>
+
+{{!-- It can also be nested --}}
+<div class="row component-row">
+    <div class="col-xs-12">
+        <div class="row component-row">
+            <div class="col-xs-6">
+                {{> text }}
+            </div>
+            <div class="col-xs-6">
+                {{> text }}
+            </div>
+        </div>
+    </div>
+</div>
