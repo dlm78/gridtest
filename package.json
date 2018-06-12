@@ -1,0 +1,25 @@
+{
+  "name": "gridtest",
+  "version": "1.0.0",
+  "description": "Testing embedded components with a grid template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlm78/gridtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlm78/gridtest/issues"
+  },
+  "homepage": "https://github.com/dlm78/gridtest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass-glob": "^1.0.9"
+  }
+}

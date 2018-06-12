@@ -56,6 +56,7 @@
         <!-- Component -->
         <div class="row component-row">
           <div class="col-md-12">
+            {{> component}}
             <p>This is a component with
               <code>row</code> and
               <code>grid class</code>
@@ -109,18 +110,18 @@
             <div class="row component-row">
               <div class="col-md-6">
                 <h2>Heading 2</h2>
-                <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
+                {{> text}}
                 <img src="http://lorempixel.com/400/100">
               </div>
               <div class="col-md-6">
-                <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
+                {{> text}}
               </div>
             </div>
 
             <!-- Component -->
             <div class="row component-row">
               <div class="col-md-6 red">
-                <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
+                {{> text}}
               </div>
             </div>
 
@@ -153,7 +154,7 @@
               <div class="col-md-6">
                 <div class="row component-row">
                   <div class="col-md-6 red">
-                    <p>Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph Paragraph</p>
+                    {{> text}}
                   </div>
                 </div>
               </div>
