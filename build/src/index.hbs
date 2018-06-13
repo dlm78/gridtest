@@ -51,7 +51,7 @@
     </div>
 
     {{> band }}
-    
+
   </div>
 
 
@@ -63,20 +63,25 @@
         <p class="lead">Like above but contained</p>
       </div>
     </div>
-
+    
     {{> band }}
+    {{> component }}
+    {{> component-nested }}
+    {{> component-ds }}
 
     <!-- Page layout -->
     <div class="row">
       <div class="col-xs-8 l">
         <h2>Left</h2>
-        {{> component }}
         {{> band }}
+        {{> component }}
+        {{> component-nested }}
+        {{> component-ds }}
+        {{> entity-ref }}
       </div>
 
       <div class="col-xs-3 col-xs-offset-1 r">
         <h2>Right</h2>
-        {{> component }}
         {{> component }}
       </div>
     </div>

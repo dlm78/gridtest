@@ -1,9 +1,12 @@
 {{!-- This is the wrapper for single components --}} {{!-- It can be used inside any paragraph but cannot be used alone on
 full-width (needs paragraph wrapper). --}}
 <div class="row component-row">
-    <div class="col-xs-12">
-        {{> element}}
-        {{> element}}
-        {{> element}}
+    <div class="col-xs-6">
+        <h2>Display suite column 1</h2>
+        {{> text}}
+    </div>
+    <div class="col-xs-6">
+        <h2>Display suite column 2</h2>
+        {{> text}}
     </div>
 </div>

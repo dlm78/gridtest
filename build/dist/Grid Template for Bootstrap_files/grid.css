@@ -68,6 +68,10 @@ img {
   background: red;
 } */
 
+.element {
+  background: #FFF;
+  color: #000;
+}
 .red {
   background: red !important;
 }
